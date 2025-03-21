@@ -154,12 +154,12 @@ input:focus {
     align-items: center;
     width: 80%; 
     min-height: 60px; 
-    background-color: rgba(255, 255, 255, 0.1); 
-    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.4); 
+    border: 1px solid white;
     border-radius: 10px;
     margin: 5px 0; 
     padding: 10px;
-    color: white;
+    color: #ffffff;
     font-size: 1.2rem;
     transition: all 0.3s ease;
 }
@@ -181,10 +181,14 @@ input:focus {
 
 .task-item .check-btn:hover {
     color: green; 
+    background-color: green;
+    border-radius: 20px;
 }
 
 .task-item .delete-btn:hover {
     color: red; 
+    background-color: red;
+    border-radius: 20px;
 }
 #startBtn.pause{
     background-color: hsla(0, 0%, 67%, 0.87);
