@@ -87,14 +87,13 @@ savedTasks.forEach(taskText => {
 const display = document.getElementById("timer")
 const startBtn = document.getElementById("startBtn")
 let timer = null;
-let startTime = 2;
+let startTime = 2400;
 let isBreak = false;
 const startSong = new Audio("audios/Clickzin.wav")
 const pauseSong = new Audio("audios/pausezin.wav")
 
 function toggleTimer(){
     if (timer === null){
-        startTime--;
         updateDisplay()
         startBtn.textContent = 'Pause'
         startBtn.classList.add("pause")
